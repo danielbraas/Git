@@ -65,12 +65,12 @@ CompoundName,ExperimentType,ChemicalFormula,Category,CAS,Ionization,ResponseThre
 3-Phosphoglycerate M3,XIC,C3H7O7P,Metabolomics,,ESI,5000,,187.99571,M-H,-,1,16.5,60,,40,,,184.98566,0
 4-Pyridoxic acid M0,XIC,C8H9NO4,Metabolomics,,ESI,5000,,182.04588,M-H,-,1,5.53,60,,40,,,,
 5'-Methylthioadenosine M0,XIC,C11H15N5O3S,Metabolomics,,ESI,5000,,298.09684,M-H,+,1,9.2,60,,40,,,,
-5-Oxoproline M0,XIC,C5H7NO3,Metabolomics,,ESI,5000,,128.03532,M-H,-,1,9.2,60,,40,,,,
-5-Oxoproline M1,XIC,C5H7NO3,Metabolomics,,ESI,5000,,129.03867,M-H,-,1,9.2,60,,40,,,128.03532,0
-5-Oxoproline M2,XIC,C5H7NO3,Metabolomics,,ESI,5000,,130.04202,M-H,-,1,9.2,60,,40,,,128.03532,0
-5-Oxoproline M3,XIC,C5H7NO3,Metabolomics,,ESI,5000,,131.04537,M-H,-,1,9.2,60,,40,,,128.03532,0
-5-Oxoproline M4,XIC,C5H7NO3,Metabolomics,,ESI,5000,,132.04872,M-H,-,1,9.2,60,,40,,,128.03532,0
-5-Oxoproline M5,XIC,C5H7NO3,Metabolomics,,ESI,5000,,133.05207,M-H,-,1,9.2,60,,40,,,128.03532,0
+Oxoproline M0,XIC,C5H7NO3,Metabolomics,,ESI,5000,,128.03532,M-H,-,1,9.2,60,,40,,,,
+Oxoproline M1,XIC,C5H7NO3,Metabolomics,,ESI,5000,,129.03867,M-H,-,1,9.2,60,,40,,,128.03532,0
+Oxoproline M2,XIC,C5H7NO3,Metabolomics,,ESI,5000,,130.04202,M-H,-,1,9.2,60,,40,,,128.03532,0
+Oxoproline M3,XIC,C5H7NO3,Metabolomics,,ESI,5000,,131.04537,M-H,-,1,9.2,60,,40,,,128.03532,0
+Oxoproline M4,XIC,C5H7NO3,Metabolomics,,ESI,5000,,132.04872,M-H,-,1,9.2,60,,40,,,128.03532,0
+Oxoproline M5,XIC,C5H7NO3,Metabolomics,,ESI,5000,,133.05207,M-H,-,1,9.2,60,,40,,,128.03532,0
 "5,6-Dihydro-UTP M0",XIC,C9H17N2O15P3,Metabolomics,,ESI,5000,,484.9769,M-H,-,1,22.3,60,,40,,,,
 6-Hydroxynicotinic acid M0,XIC,C6H5NO3,Metabolomics,,ESI,5000,,138.01967,M-H,-,1,4.81,60,,40,,,,
 6-Phosphogluconate M0,XIC,C6H12O10P,Metabolomics,,ESI,5000,,274.00953,M-H,-,1,0,60,,,,,,
@@ -1179,6 +1179,7 @@ PRPP M2,XIC,C5H13O14P3,Metabolomics,,ESI,5000,,390.95124,M-H,-,1,19.7,60,,40,,,3
 PRPP M3,XIC,C5H13O14P3,Metabolomics,,ESI,5000,,391.95459,M-H,-,1,19.7,60,,40,,,388.94454,0
 PRPP M4,XIC,C5H13O14P3,Metabolomics,,ESI,5000,,392.95794,M-H,-,1,19.7,60,,40,,,388.94454,0
 PRPP M5,XIC,C5H13O14P3,Metabolomics,,ESI,5000,,393.96129,M-H,-,1,19.7,60,,40,,,388.94454,0
+Pseudo-UTP M0,XIC,C9H15N2O15P3,Metabolomics,,ESI,5000,,482.96125,M-H,-,1,22.9,60,,40,,,482.96125,0
 Pyridoxal,XIC,C8H9NO3,Metabolomics,,ESI,5000,,185.09207,M+NH4,+,1,0,60,,40,,,,
 Pyridoxine,XIC,C8H11NO3,Metabolomics,,ESI,5000,,168.0657,M-H,-,1,6.88,60,,40,,,,
 Pyrogallol,XIC,C6H6O4,Metabolomics,,ESI,5000,,141.01933,M-H,-,1,5.3,60,,40,,,,
@@ -1188,12 +1189,12 @@ Pyruvate M1,XIC,C3H4O3,Metabolomics,,ESI,5000,,88.01212,M-H,-,1,6.3,60,,40,,,87.
 Pyruvate M2,XIC,C3H4O3,Metabolomics,,ESI,5000,,89.01547,M-H,-,1,6.3,60,,40,,,87.00877,0
 Pyruvate M3,XIC,C3H4O3,Metabolomics,,ESI,5000,,90.01882,M-H,-,1,6.3,60,,40,,,87.00877,0
 Riboflavin M0,XIC,C17H20N4O6,Metabolomics,,ESI,5000,,375.13101,M-H,-,1,0,60,,40,,,,
-Ribose M0,XIC,C5H10O5,Metabolomics,,ESI,5000,,149.04555,M-H,-,1,4,60,,40,,,89.02442,0
-Ribose M1,XIC,C5H10O5,Metabolomics,,ESI,5000,,150.0489,M-H,-,1,4,60,,40,,,149.04555,0
-Ribose M2,XIC,C5H10O5,Metabolomics,,ESI,5000,,151.05225,M-H,-,1,4,60,,40,,,149.04555,0
-Ribose M3,XIC,C5H10O5,Metabolomics,,ESI,5000,,152.0556,M-H,-,1,4,60,,40,,,149.04555,0
-Ribose M4,XIC,C5H10O5,Metabolomics,,ESI,5000,,153.05895,M-H,-,1,4,60,,40,,,149.04555,0
-Ribose M5,XIC,C5H10O5,Metabolomics,,ESI,5000,,154.0623,M-H,-,1,4,60,,40,,,149.04555,0
+Ribose M0,XIC,C5H10O5,Metabolomics,,ESI,5000,,149.04555,M-H,-,1,4.3,60,,40,,,89.02442,0
+Ribose M1,XIC,C5H10O5,Metabolomics,,ESI,5000,,150.0489,M-H,-,1,4.3,60,,40,,,149.04555,0
+Ribose M2,XIC,C5H10O5,Metabolomics,,ESI,5000,,151.05225,M-H,-,1,4.3,60,,40,,,149.04555,0
+Ribose M3,XIC,C5H10O5,Metabolomics,,ESI,5000,,152.0556,M-H,-,1,4.3,60,,40,,,149.04555,0
+Ribose M4,XIC,C5H10O5,Metabolomics,,ESI,5000,,153.05895,M-H,-,1,4.3,60,,40,,,149.04555,0
+Ribose M5,XIC,C5H10O5,Metabolomics,,ESI,5000,,154.0623,M-H,-,1,4.3,60,,40,,,149.04555,0
 Ribose-5-phosphate M0,XIC,C5H11O8P,Metabolomics,,ESI,5000,,229.01188,M-H,-,1,14.5,60,,40,,,,
 Ribose-5-phosphate M1,XIC,C5H11O8P,Metabolomics,,ESI,5000,,230.01523,M-H,-,1,14.5,60,,40,,,229.01188,0
 Ribose-5-phosphate M2,XIC,C5H11O8P,Metabolomics,,ESI,5000,,231.01858,M-H,-,1,14.5,60,,40,,,229.01188,0
