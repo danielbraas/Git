@@ -1,0 +1,19 @@
+#In order to connect repos on Git with corresponding repos on Github, make sure the repos 
+#have the same name...not sure if this is a requirement, but it makes life a lot easier
+
+
+#To create a new repository on the command line and to have it connected to the 
+#respective repo on Github
+
+echo "# Git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/danielbraas/Git.git
+git push -u origin master
+
+#To push an existing repository from the command line to the corresponding repo on
+#Github
+
+git remote add origin https://github.com/danielbraas/Git.git
+git push -u origin master
