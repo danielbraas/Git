@@ -1,0 +1,7 @@
+[user]
+	name = Daniel Braas
+	email = danielbraas@gmail.com
+[color]
+	ui = auto
+[core]
+	editor = 'D:/Notepad++/notepad++.exe' -multiInst -nosession
