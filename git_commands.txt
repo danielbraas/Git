@@ -7,9 +7,11 @@ git init [folder_name]
 #Copy the files .bash_profile, git-completion.bash and .gitconfig into the Git home
 #directory and modify the .gitconfig file to adjust the directory info for
 #Notepad++ 
+#The shortcut (alias) for notepad++ is set to notep, so if you want to open a file in
+#notepad++ type:
+notep readme.txt
 
 #To set a new home directory, type:
-
 setx HOME "C:\Users\Daniel\Dropbox\projects"
 
 #To create a new repository on the command line and to have it connected to the 
