@@ -12,7 +12,10 @@ git init [folder_name]
 notep readme.txt
 
 #To set a new home directory, type:
-setx HOME "C:\Users\Daniel\Dropbox\projects"
+setx HOME "C:\Users\Daniel\"
+
+# To add an alias (eg change directory to project directory) change .bash_profile and set:
+alias projects="cd C:/Users/Daniel/Dropbox/projects"
 
 #To create a new repository on the command line and to have it connected to the 
 #respective repo on Github
