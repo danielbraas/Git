@@ -8,6 +8,10 @@ git init [folder_name]
 #directory and modify the .gitconfig file to adjust the directory info for
 #Notepad++ 
 
+#To set a new home directory, type:
+
+setx HOME "C:\Users\Daniel\Dropbox\projects"
+
 #To create a new repository on the command line and to have it connected to the 
 #respective repo on Github
 echo "# Git" >> README.md
