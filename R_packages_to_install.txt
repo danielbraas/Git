@@ -1,11 +1,11 @@
 install.packages(c('scales','colorspace','lazyeval','jsonlite','readr','png','tidyverse','readxl',
                    'BiocGenerics', 'BiocInstaller', 'Biostrings', 'data.table', 'feather', 'IRanges', 'KEGGREST', 'robustbase', 'S4Vectors', 'slam',
-                   'sourcetools', 'survival', 'XVector', 'zlibbioc','devtools','xlsx','xml2',
+                   'sourcetools', 'survival', 'XVector', 'zlibbioc','devtools','xlsx','xml2','mixOmics',
                    'pheatmap','gridExtra'), 
                  dependencies = T)
 
 source("https://bioconductor.org/biocLite.R")
-biocLite(c("xcms",'Biostrings','KEGGREST','CAMERA'))
+biocLite(c("xcms",'Biostrings','KEGGREST','CAMERA','sva'))
 
 library(devtools)
 install_github('danielbraas/MetabFUN')
