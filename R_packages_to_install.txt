@@ -1,6 +1,6 @@
 install.packages(c('scales','colorspace','lazyeval','jsonlite','readr','png','tidyverse','readxl',
-                   'BiocGenerics', 'BiocInstaller', 'Biostrings', 'data.table', 'feather', 'IRanges', 'KEGGREST', 'robustbase', 'S4Vectors', 'slam',
-                   'sourcetools', 'survival', 'XVector', 'zlibbioc','devtools','xlsx','xml2','mixOmics',
+                   'BiocGenerics', 'BiocInstaller', 'Biostrings', 'data.table', 'feather', 'IRanges', 'KEGGREST', 'robustbase', 'S4Vectors', 
+		   'slam', 'sourcetools', 'survival', 'XVector', 'zlibbioc','devtools','xlsx','xml2','mixOmics',AppliedPredictiveModeling
                    'pheatmap','gridExtra'), 
                  dependencies = T)
 
