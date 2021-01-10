@@ -45,3 +45,13 @@ git commit -m "Message"
 
 #To push files from Git to Github
 git push
+
+# R configuration
+
+### Setup R libraries
+
+- make sure .Rprofile file exists in home directory otherwise create file with `file.edit('~/.Rprofile')`
+- add .libPaths('C:/R_lib') # R_lib is the library target folder
+- have config file saved (e.g. as `config.json`) with information about file structure etc. If not present
+this file can be created with `file.edit('~/config.json')
+- the file can easily be populated from a list using the jsonlite package
