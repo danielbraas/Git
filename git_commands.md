@@ -1,30 +1,33 @@
-#In order to connect repos on Git with corresponding repos on Github, make sure the repos 
-#have the same name...not sure if this is a requirement, but it makes life a lot easier
+# Setting up and working with Git and Github
 
-#To "activate" version control in a Git repository
-git init [folder_name]
+# Connecting local repos with Github
+In order to connect repos on Git with corresponding repos on Github, make sure the repos 
+have the same name...not sure if this is a requirement, but it makes life a lot easier
 
-# Copy the files .bash_profile, git-completion.bash and .gitconfig into the Git home directory and 
+To initialize version control in a Git repository
+`git init [folder_name]`
+
+### Copy the files .bash_profile, git-completion.bash and .gitconfig into the Git home directory and 
 modify the .gitconfig file to adjust the directory info for Notepad++ 
 
-#The shortcut (alias) for notepad++ is set to notep, so if you want to open a file in
-#notepad++ type:
-notep readme.txt
+The shortcut (alias) for notepad++ is set to notep, so if you want to open a file in
+notepad++ type:
+`notep readme.txt`
 
-# To set a new home directory, type:
-setx HOME "C:\Users\Daniel\"
+### To set a new home directory, type:
+`setx HOME "C:\Users\Daniel\"`
 
-# To add an alias (eg change directory to project directory) change .bash_profile and set:
-alias projects="cd C:/Users/Daniel/Dropbox/projects"
+### To add an alias (eg change directory to project directory) change .bash_profile and set:
+`alias projects="cd C:/Users/Daniel/Dropbox/projects"`
 
-#To create a new repository on the command line and to have it connected to the 
-#respective repo on Github
-echo "# Git" >> README.md
-git init
+o create a new repository on the command line and to have it connected to the 
+respective repo on Github
+`echo "# Git" >> README.md`
+```git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/danielbraas/Git.git
-git push -u origin master
+git push -u origin master```
 
 #To push an existing repository from the command line to the corresponding repo on
 #Github
@@ -53,5 +56,5 @@ git push
 - make sure .Rprofile file exists in home directory otherwise create file with `file.edit('~/.Rprofile')`
 - add .libPaths('C:/R_lib') # R_lib is the library target folder
 - have config file saved (e.g. as `config.json`) with information about file structure etc. If not present
-this file can be created with `file.edit('~/config.json')
+this file can be created with `file.edit('~/config.json')`
 - the file can easily be populated from a list using the jsonlite package
