@@ -23,11 +23,13 @@ notepad++ type:
 o create a new repository on the command line and to have it connected to the 
 respective repo on Github
 `echo "# Git" >> README.md`
+
 ```git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/danielbraas/Git.git
-git push -u origin master```
+git push -u origin master
+```
 
 #To push an existing repository from the command line to the corresponding repo on
 #Github
