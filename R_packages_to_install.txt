@@ -1,11 +1,12 @@
-install.packages(c('scales','colorspace','lazyeval','jsonlite','readr','png','tidyverse','readxl','XLConnect','openxlsx','shinyFiles', 'shinyjs',
-                   'BiocGenerics', 'BiocInstaller', 'Biostrings', 'data.table', 'feather', 'IRanges', 'robustbase', 'S4Vectors', 
-		   'slam', 'sourcetools', 'survival', 'XVector', 'zlibbioc','devtools','xlsx','xml2','mixOmics','AppliedPredictiveModeling',
-                   'pheatmap','gridExtra','corrplot','plotly','leaflet','highcharter'), 
+install.packages(c('epiR','scales','colorspace','lazyeval','jsonlite','readr','png','tidyverse','readxl','XLConnect','openxlsx','shiny', 'shinyFiles', \
+				   'shinyjs', 'BiocGenerics', 'BiocInstaller', 'Biostrings', 'data.table', 'feather', 'IRanges', 'robustbase', 'S4Vectors', 'shinycssloaders'
+				   'slam', 'sourcetools', 'survival', 'XVector', 'zlibbioc','devtools','xlsx','xml2','AppliedPredictiveModeling',
+                   'pheatmap','gridExtra','corrplot','plotly','leaflet','highcharter', 'upSetR'), 
                  dependencies = T)
 
-source("https://bioconductor.org/biocLite.R")
-biocLite(c("xcms",'Biostrings','KEGGREST','CAMERA','sva'))
+
+
+BiocManager::install(c("xcms",'Biostrings','KEGGREST','CAMERA','sva','mixOmics'))
 
 library(devtools)
-install_github('danielbraas/MetabFUN')
+install_github('danielbraas/ShinyMetab')
