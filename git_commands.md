@@ -24,32 +24,35 @@ o create a new repository on the command line and to have it connected to the
 respective repo on Github
 `echo "# Git" >> README.md`
 
-```git init
+```
+git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/danielbraas/Git.git
 git push -u origin master
 ```
 
-#To push an existing repository from the command line to the corresponding repo on
-#Github
+To push an existing repository from the command line to the corresponding repo on
+Github
+```
 git remote add origin https://github.com/danielbraas/Git.git
 git push -u origin master
+```
 
-#To check what URL is used for a remote
-git remote -v
+To check what URL is used for a remote
+`git remote -v`
 
-#To change a set remote URL for a repo 
-git remote set-url origin https://github.com/danielbraas/Git.git
+To change a set remote URL for a repo 
+`git remote set-url origin https://github.com/danielbraas/Git.git`
 
-#To stage files
-git add . [or specify what file should be staged]
+To stage files
+`git add . [or specify what file should be staged]`
 
-#To commit
-git commit -m "Message"
+To commit
+`git commit -m "Message"`
 
-#To push files from Git to Github
-git push
+To push files from Git to Github
+`git push`
 
 # R configuration
 
